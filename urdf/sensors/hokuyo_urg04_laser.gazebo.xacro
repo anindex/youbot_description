@@ -16,7 +16,7 @@
             <scan>
                 <horizontal>
                     <samples>150</samples>
-                    <resolution>1.0</resolution>    
+                    <resolution>1.0</resolution>
                     <min_angle>${min_angle}</min_angle>
                     <max_angle>${max_angle}</max_angle>
                 </horizontal>
@@ -34,6 +34,7 @@
             <updateRate>${update_rate}</updateRate>
             <topicName>${ros_topic}</topicName>
             <frameName>/${name}_link</frameName>
+            <legacyModeNS>true</legacyModeNS>
          </plugin>
       </sensor>
     </gazebo>
