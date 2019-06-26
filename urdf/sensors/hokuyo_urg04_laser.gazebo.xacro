@@ -34,7 +34,8 @@
             <updateRate>${update_rate}</updateRate>
             <topicName>${ros_topic}</topicName>
             <frameName>/${name}_link</frameName>
-            <legacyModeNS>true</legacyModeNS>
+            <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+            <legacyModeNS>false</legacyModeNS>
          </plugin>
       </sensor>
     </gazebo>
